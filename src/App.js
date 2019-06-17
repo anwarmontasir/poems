@@ -20,7 +20,7 @@ class App extends Component {
         </footer>
       </div>
     )
-  );
+  }
 }
 
 export default App;

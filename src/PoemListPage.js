@@ -6,7 +6,7 @@ export default function PoemListPage() {
         <>
             <p>Choose a poem from the list below.</p>
             <ul className='PoemList'>
-                {POEMS.map(poem) => 
+                {POEMS.map(poem => 
                     <li key={poem.id}>
                         <a href={`/poem/${poem.id}`}>
                             {poem.title}
